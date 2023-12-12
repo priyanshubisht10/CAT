@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/open_entries"
+        android:icon="@drawable/baseline_nature_people_24"
+        android:title="Open" />
+
+    <item
+        android:id="@+id/closed_entries"
+        android:icon="@drawable/baseline_people_alt_24"
+        android:title="Closed" />
+
+    <item
+        android:id="@+id/history"
+        android:icon="@drawable/baseline_history_24"
+        android:title="History" />
+
+    <item
+        android:id="@+id/hostel_attendance"
+        android:icon="@drawable/baseline_apartment_24"
+        android:title="Hostel" />
+
+    <item
+        android:id="@+id/add_new_student"
+        android:icon="@drawable/baseline_add_circle_outline_24"
+        android:title="Add" />
+</menu>

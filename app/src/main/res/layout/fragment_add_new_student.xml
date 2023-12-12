@@ -1,0 +1,72 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_margin="16dp"
+        android:elevation="8dp"
+        app:cardCornerRadius="8dp">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <EditText
+                android:layout_margin="8dp"
+                android:id="@+id/editTextName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Name" />
+
+            <EditText
+                android:id="@+id/editTextRollNo"
+                android:layout_width="match_parent"
+                android:layout_margin="8dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:hint="Roll No" />
+
+            <EditText
+                android:id="@+id/editTextDepartment"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:layout_marginTop="8dp"
+                android:hint="Department" />
+
+            <EditText
+                android:id="@+id/editTextHostelName"
+                android:layout_width="match_parent"
+                android:layout_margin="8dp"
+
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:hint="Hostel Name" />
+
+            <EditText
+                android:id="@+id/editTextRoomNo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_margin="8dp"
+                android:hint="Room No" />
+
+            <Button
+                android:id="@+id/btnSave"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="16dp"
+                android:text="Save" />
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>

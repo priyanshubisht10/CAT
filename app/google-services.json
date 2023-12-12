@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "486054961500",
+    "project_id": "studentflowtrack",
+    "storage_bucket": "studentflowtrack.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:486054961500:android:ae8c47da370e97e10fe199",
+        "android_client_info": {
+          "package_name": "com.example.studentflowtrack"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAHYPeQlmt7w1biUv9tI4IwYKTKNjB1Gsg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
