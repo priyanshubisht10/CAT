@@ -1,0 +1,2 @@
+## CAT
+Colliegate Access Track is an integrated system provides colleges with a comprehensive solution for entry-exit tracking, ensuring both efficiency and security. The Kotlin-based Android app offers a user-friendly interface for admin staff, while the Python-based face-recognition system utilizes deepface for accurate recognition, backed by secure data storage in Firestore and real-time updates in a Google Sheet.
